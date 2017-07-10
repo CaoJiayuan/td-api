@@ -1,0 +1,323 @@
+html {
+  min-width: 980px;
+  overflow-x: hidden;
+}
+header {
+  padding: 10px;
+}
+header .logo {
+  margin-top: 27px;
+}
+header h3 {
+  font-size: 20px;
+  color: #b77606;
+  letter-spacing: 5px;
+  font-weight: bolder;
+}
+header p {
+  font-size: 16px;
+  color: #666666;
+}
+header p img {
+  margin-right: 22px;
+}
+section {
+  border: 1px solid #bdbdbd;
+  margin-bottom: 50px;
+}
+footer {
+  width: 100%;
+  background-color: #e5e5e5;
+  padding: 20px 0px;
+  border-top: 1px solid #d6d6d6;
+}
+footer .container {
+  padding: 0px 50px;
+  margin: 0 auto;
+}
+footer .container p {
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #4c4c4c;
+}
+.eval-list .eval-item {
+  margin: 10px 0px;
+}
+.eval-list .eval-item .eval-item-title {
+  line-height: 40px;
+  font-size: 16px;
+}
+.eval-list .eval-item .eval-item-select {
+  text-align: left;
+  border: 1px solid #b3b3b3;
+  padding: 10px 20px;
+  border-radius: 10px;
+  height: 230px;
+  overflow: hidden;
+}
+.eval-list .eval-item .eval-item-select ol {
+  padding: 0;
+  margin: 0;
+}
+.eval-list .eval-item .eval-item-select ol li {
+  list-style-position: inside;
+  font-size: 16px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.eval-list .eval-item .eval-item-select ol li.selected {
+  color: #ec933b;
+  background: url("../../img/selected.png") no-repeat right;
+}
+.eval-list .eval-item .eval-item-select ol li span {
+  width: 80%;
+  min-width: 150px;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+.section-title {
+  width: 100%;
+  line-height: 40px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.section-title span {
+  color: #ec933b;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.section-title label {
+  max-width: 80%;
+}
+.section-title label.section-title-tab {
+  display: inline-block;
+  width: 160px;
+  height: 43px;
+  font-size: 18px;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+.section-title label.tab-active {
+  background-color: #ec933b;
+  color: white;
+}
+.section-body {
+  text-align: center;
+  padding: 50px;
+  min-height: 300px;
+}
+.section-body ul {
+  padding: 0;
+  margin: 0;
+}
+.section-body ul li {
+  display: block;
+  list-style: none;
+  min-width: 350px;
+  width: auto;
+  margin: 30px auto;
+  text-align: center;
+  color: #333333;
+  float: inherit !important;
+  font-size: 16px;
+}
+.section-body ul li span {
+  line-height: 40px;
+}
+.section-body ul li input {
+  display: inline-block;
+  height: 40px;
+  line-height: normal;
+  border-radius: 5px;
+  padding-left: 5px;
+  border: 1px solid #bdbdbd;
+  outline: none;
+}
+.section-body ul li .yan {
+  width: 33.33333333%;
+}
+.section-body #getyzm {
+  height: 34px;
+  line-height:34px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  background-color: #fc9a38;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+.section-body  .idCard {
+  margin-top: -35px;
+}
+.section-body  .idCard span {
+  display: inline-block;
+  border-radius: 7px;
+  border: 1px solid #bdbdbd;
+  padding: 5px;
+  max-height: 150px;
+  text-align: center;
+}
+.section-body .idCard span input {
+  opacity: 0;
+}
+.section-body  .idCard .warning {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.section-body .idCard .idCard-img {
+  height: 100px;
+  background: url("../../img/idCard-a.png") no-repeat;
+  background-size: 100%;
+}
+.section-body .idCard .idCard-img-b {
+  height: 100px;
+  background: url("../../img/idCard-b.png") no-repeat;
+  background-size: 100%;
+}
+.section-body .idCard input.upload {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.hover-pointer:hover {
+    cursor: pointer;
+}
+
+.section-body  .service {
+  position: absolute;
+  font-style: normal;
+  left: 10%;
+  white-space: nowrap;
+  font-size: 14px;
+}
+@media screen and (max-width: 980px) {
+  .section-body ul li .service {
+    font-size: 12px;
+  }
+}
+.section-body .next {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #fc9a38;
+  text-decoration: none;
+  outline: none;
+  padding: 0 20px;
+  border: none;
+}
+.section-body .modal-dialog {
+  margin: 200px auto;
+}
+.section-body .modal-dialog .modal-header {
+  background-color: #ffeac7;
+  padding: 5px 10px;
+}
+.section-body .modal-dialog .modal-header .close {
+  margin-top: 7px;
+}
+.section-body .modal-dialog .modal-body {
+  min-height: 265px;
+  padding-top: 100px;
+  font-size: 18px;
+  color: #333333;
+}
+.section-body .modal-dialog .modal-footer {
+  text-align: center;
+}
+.section-body .modal-dialog .modal-footer a {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: #ec933b;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.section-body .modal-dialog .modal-footer button {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  background-color: #ec933b;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+    border: none;
+}
+.section-body .bank-select {
+  border-radius: 5px;
+  padding-left: 5px;
+  width: 100%;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #bdbdbd;
+  outline: none;
+  color: #666666;
+  cursor: pointer;
+  background: url("../../img/bank-select.png") no-repeat 95% 50%;
+}
+.section-body .bank-select img {
+  vertical-align: middle;
+}
+.section-body .bank-list {
+  position: absolute;
+  display: none;
+  padding: 5px;
+  left: 0;
+  top: 40px;
+  width: 500px;
+  cursor: inherit;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.section-body .bank-list .bank-item {
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.disabled{
+    background-color: grey !important;
+}
+.section-body .bank-list .bank-item.active {
+  background-color: #e4bc94;
+}
+.wrap {
+  float: left;
+  /* 自适应内容宽度 */
+  position: relative;
+  left: 50%;
+}
+.inner {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+.z {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 9;
+}

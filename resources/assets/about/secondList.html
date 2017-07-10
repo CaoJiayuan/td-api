@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+  <title>合约</title>
+  <link rel="stylesheet" type="text/css" href="common.css" />
+  <link rel="stylesheet" type="text/css" href="page.css" />
+  <script type="text/javascript" src="size.js"></script>
+</head>
+<body>
+  <div class="pagecontent">
+        <ul class="sjsbox">
+            <li><a >合约是什么<img class="icon" src="img/right.png" alt=""></a>
+              <div class="content">
+                <p>合约是。。。。。。。。</p>
+                <img src="./img/kaihu.png" alt="">
+              </div>
+            </li>
+            <li><a href="">合约是什么</a></li>
+            <li><a href="">合约是什么</a></li>
+            <li><a href="">清合约是什么算</a></li>
+            <li><a href="">合约是什么</a></li>
+            <li><a href="">交合约是什么割</a></li>
+            <li><a href="">热合约是什么点问题</a></li>
+        </ul>
+    </div>
+    <script src="zepto.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("li").on('click',function(){
+          var active = $(this).find('a')
+          if(active.hasClass('active')){
+            active.removeClass('active')
+          }else{
+          active.addClass('active');
+          }
+          $(this).find('.content').toggle();
+        })
+      });
+    </script>
+</body>
+</html>

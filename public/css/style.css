@@ -1,0 +1,161 @@
+*,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#oppenApp {
+    display: none;
+}
+
+header {
+    padding: 0px 15px;
+}
+
+header h4 {
+    line-height: 1.5;
+}
+
+header .date {
+    position: relative;
+}
+
+header h4 span {
+    color: #1FB57D !important;
+    border: 1px solid #1FB57D;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: normal !important;
+    padding: 3px;
+    margin-right: 10px;
+    vertical-align: text-bottom;
+}
+
+.content {
+    margin-top: 10px;
+    padding: 0px 15px;
+    word-break: break-all;
+}
+
+.content img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.text-footer span {
+    margin-left: 15px;
+    line-height: 2.5;
+    color: grey;
+}
+
+.text-footer span img {
+    width: 20px;
+    height: auto;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+.text-footer {
+    padding-right: 15px;
+}
+
+.date {
+    color: grey;
+}
+
+.content p a {
+    word-wrap: break-word;
+}
+
+.ads {
+    display: block;
+    width: 100%;
+    border-top: 10px solid #f5f5f5;
+    border-bottom: 10px solid #f5f5f5;
+}
+
+.ads img {
+    width: 100%;
+    height: auto;
+    max-height: 90px;
+}
+
+.cmtlist_title {
+    color: #9a9a9a;
+}
+
+.comment_list {
+    position: relative;
+}
+
+.cmtlist {
+    padding: 0 15px;
+}
+
+.cmtlist .item {
+    padding-top: 14px;
+    padding-bottom: 9.5px;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+
+.cmtlist .item .photo-container {
+    width: 35px;
+    float: left;
+}
+
+.cmtlist .item .photo-container .photo-wrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ontainer img {
+    width: 100%;
+}
+
+.cmtlist .item .comment-container {
+    margin-left: 43px;
+}
+
+.cmtlist .info {
+    text-align: left;
+    margin-bottom: 6px;
+    height: 16px;
+}
+
+.time-label {
+    font-size: 1rem;
+}
+
+.cmtlist .info,
+.time-label {
+    color: #9a9a9a;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.cmtlist .handle {
+    color: #999;
+    text-align: right;
+}
+
+.child {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+}
+
+.child span i {
+    font-style: normal;
+    color: #3b96c2;
+    margin: 0 5px;
+}

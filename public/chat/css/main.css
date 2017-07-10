@@ -1,0 +1,194 @@
+.content {
+    width: 100%;
+    min-width: 600px;
+    background-color: #f5f5f5;
+}
+
+.right-view {
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid #b3b3b3;
+}
+
+.chatview {
+    margin-right: 200px;
+    min-width: 400px;
+    height: 100vh;
+}
+
+.chatview .chat-list {
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.chat-list .date {
+    text-align: center;
+}
+
+.chat-list .date span {
+    padding: 0 30px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ebebeb;
+}
+
+.chat-item {
+    margin: 10px;
+    position: relative;
+}
+
+.user-img {
+    float: left;
+}
+
+.user-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    float: left;
+    margin-left: 10px;
+    color: #4c4c4c;
+}
+
+.chat-content {
+    position: relative;
+    margin-left: 60px;
+    display: inline-block;
+    border: 1px solid #b3b3b3;
+    top: -20px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    vertical-align: text-bottom;
+    color: #4c4c4c;
+}
+
+.chat-content img{
+    max-width: 200px;
+}
+.right{
+    text-align: right;
+}
+.right .user-img {
+    float: right;
+}
+
+.right .user-name {
+    float: right;
+    margin-right: 10px;
+    color: #4c4c4c;
+}
+
+.right .chat-content {
+    position: relative;
+    margin-right: 60px;
+    display: inline-block;
+    border: none;
+    background-color: #cfedf7;
+    top: -20px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+
+    vertical-align: text-bottom;
+}
+
+.input-chat {
+    border-top: 1px solid #cacbcc;
+    height: 25vh;
+}
+
+.input-title {
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+}
+
+.input-title input[type="button"],
+.input-title a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.input-title input[type="file"] {
+    opacity: 0;
+    cursor: pointer;
+    width: 0;
+    font-size: 0;
+    width: 26px;
+    height: 26px;
+}
+
+.brow {
+    background: url("/chat/img/brow.png") no-repeat;
+    background-size: 100%;
+}
+
+.update-img {
+    background: url("/chat/img/img.png") no-repeat;
+    background-size: 100%;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.log {
+    background: url("/chat/img/log.png") no-repeat;
+    background-size: 100%;
+}
+
+.input-content {
+    width: 100%;
+    border: none;
+    height: 12vh;
+    outline: none;
+    padding: 5px 10px;
+    line-height: 1.5;
+}
+
+.input-footer {
+    padding: 0 10px;
+}
+
+.input-footer span {
+    float: left;
+}
+
+.input-footer button {
+    float: right;
+    background-color: #42a3f8;
+    color: #fff;
+    border: none;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    outline: none;
+    border-radius: 7px;
+}
+
+.input-footer button:active {
+    background-color: #348ad6;
+}
+
+.right-view img {
+    width: 100%;
+    height: auto;
+}
+
+.right-view ul li {
+    padding: 0 10px;
+    line-height: 2;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+	<title>止盈止损设置说明</title>
+	<style type="text/css">
+		@font-face {
+			font-family: 'Hiragino%20Sans%20GB%20W3';
+			src: url('font/Hiragino%20Sans%20GB%20W3.otf');
+		}
+		html,body{
+			height: 100%;
+			font-family: "Hiragino%20Sans%20GB%20W3";
+			font-size: 16px;
+			color: #6c6c6c;
+		}
+		.item span{
+			color: #262628;
+			font-weight: bolder;
+			font-size: 18px;
+			width: 100%;
+			display: inline-block;
+			border-bottom: 1px solid #eeeeee;
+		}
+		ol{
+			padding: 0;
+			list-style-position: inside;
+		}
+		ul{
+			padding: 0;
+			list-style: none;
+			color: #f3373a;
+		}
+	</style>
+</head>
+<body>
+<div class="item">
+	<span>触发原理</span>
+	<div class="content">
+		<p>
+			最新价达到止盈（止损）价自动触发止盈（止损）如果价格跳空（如开盘跳空）直接穿越止盈（止损）价同样触发。
+		</p>
+	</div>
+</div>
+<div class="item">
+	<span>委托价计算</span>
+	<div class="content">
+		<p>
+			例：Au(T+D),多单，止损价220.00，止盈价250.00,止损变动价位0.30元，止盈变动价位0.20元。
+		</p>
+		<ol>
+			<li>触发止损时最新价为219.10，平仓委托价218.80元（最新价-0.30元）</li>
+			<li>触发止盈时最新价为251.85，平仓委托价251.65元（最新价-0.20元）</li>
+		</ol>
+	</div>
+</div>
+<div class="item">
+	<span>止盈止损风险揭示</span>
+	<div class="content">
+		<p>
+			止盈止损单，是以止盈和止损价为触发条件，满足触发条件后按照设置的委托价下单平仓。
+		</p>
+		<p>目前委托价是以触发时最新价加减变动价为计算出来的。</p>
+		<ul>
+			<li>风险1：止盈止损单触发后下委托单，由于交易所交易规则所限，交易委托不一定能成交；</li>
+			<li>风险2：委托价是触发时最新价计算出来的，行情剧烈波动是可能到时委托价远远偏离止盈价和止损价。</li>
+		</ul>
+		<p>以上只列举止盈止损单部分可能发生的风险，但不是使用软件的全部风险。使用我公司软件下单导致的交易结果，我公司不承担任何风险与责任，请详细了解软件机制后谨慎使用。</p>
+	</div>
+</div>
+</body>
+</html>
